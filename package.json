@@ -1,0 +1,21 @@
+{
+  "name": "blurrrr-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "sharp": "^0.31.3",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "type": "module"
+}
